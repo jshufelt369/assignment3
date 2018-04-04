@@ -25,7 +25,6 @@ header nav {
 header nav ul {
     display: flex;
     justify-content: flex-end;
-
 }
 
 header nav li:hover {
@@ -36,7 +35,7 @@ header nav li:hover {
 header nav li {
     list-style-type: none;
     padding: 1em;
-    color: white
+    color: white;
 }
 
 
@@ -49,14 +48,14 @@ main {
 
 .main1 {
     flex: 2;
-    background-color: rgba(128, 128, 128, 0.73);
+    background-color: rgba(224, 222, 235, 0.65);
     margin: 5px;
     border-radius: 10%;
 }
 
 .main2 {
     flex: 4;
-    background-color: rgba(128, 128, 128, 0.73);
+    background-color: rgba(224, 222, 235, 0.65);
     margin: 10px;
     border-radius: 10%;
 }
@@ -64,7 +63,7 @@ main {
 .main3 {
 
     flex: 2;
-    background-color: rgba(128, 128, 128, 0.73);
+    background-color: rgba(224, 222, 235, 0.65);
     margin: 5px;
     border-radius: 10%;
 }
@@ -92,6 +91,11 @@ footer nav li {
     box-shadow: 5px 5px;
 }
 
+.footerpics {
+    height: 2rem;
+    border-radius: 25%;
+}
+
 h2 {
     text-align: center;
     text-decoration: underline;
@@ -115,35 +119,35 @@ h2 {
     width: 60%;
 }
 
-#bc {
-    width: 50%;
-    border-radius: 25%;
-}
-
-#facebook {
-    width: 50%;
-    border-radius: 25%;
-}
 #josh {
     width: 60%;
     border-radius: 20%;
 }
+
 #zane {
     width: 60%;
     border-radius: 20%;
 }
+
 #dan {
     width: 60%;
     border-radius: 20%;
 }
+
 #eddy {
     width: 60%;
     border-radius: 20%;
 }
+
 #kenny {
     width: 60%;
     border-radius: 20%;
 }
+
+#may12 {
+    width: 60%
+}
+
 
 @media screen and (max-width: 40rem) {
     .main1,
